@@ -4,6 +4,10 @@ body, html {
 	-webkit-font-smoothing: antialiased !important;
 	color: #1c424d;
 }
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
 h1 {
 	font-weight: 700;
 }
