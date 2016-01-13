@@ -109,7 +109,7 @@ hr {
 	letter-spacing: 1px;
 }
 #menu a.navbar-brand i.fa {
-	color: #f3ca27;
+	color: #A6520B;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
@@ -118,22 +118,22 @@ hr {
 	letter-spacing: 1px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #f3ca27;
+	color: #F0E3C0;
 }
 .on {
 	background-color: #032731 !important;
 	padding: 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #f3ca27 !important;
+	color: #F0E3C0 !important;
 	background-color: transparent;
 }
 .navbar-toggle {
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #f3ca27;
-	border-color: #f3ca27;
+	background-color: #F0E3C0;
+	border-color: #F0E3C0;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
@@ -207,7 +207,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	background: #032934;
 	margin-bottom: 6px;
 	border-radius: 10%;
-	color: #f3ca27;
+	color: #A6520B F0E3C0;
 	transition: all 0.5s;
 }
 #services-section .service:hover>i.fa {
@@ -414,20 +414,16 @@ ol.type li a:hover {
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#355A63', endColorstr='#355A63', GradientType=0 ); /* IE6-9 */
 	color: #5b777f;
 }
-#about-section h4 {
+#experience-section h4 {
 	color: #81969c;
 	font-size: 20px;
 }
-#about-section li {
+#experience-section li {
 	margin-bottom: 6px;
 	list-style: none;
 	padding: 0;
 }
-#about-section li:before {
-	content: "✓";
-	color: #f3ca27;
-	padding-right: 5px;
-}
+
 /* Team Section */
 #team-section {
 	padding: 80px 0;
@@ -483,10 +479,10 @@ img.img-circle.team-img {
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
 	filter: Alpha(Opacity=100);
 	opacity: 1;
-	background: #f1c40f;
+	background: #DB6C0F;
 }
 .owl-theme .owl-controls .owl-page.active span {
-	background: #f1c40f;
+	background: #DB6C0F;
 }
 /* Testimonials Section */
 #testimonials-section {
@@ -513,7 +509,7 @@ img.img-circle.team-img {
 #contact-section {
 	padding: 80px 0 20px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
-	background: rgb(193,166,24); /* Old browsers */
+	background: rgb(219,108,15); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(219,108,15,1) 0%, rgba(219,108,15,1) 25%, rgba(219,108,15,1) 75%, rgba(166,82,11,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(219,108,15,1) 0%, rgba(219,108,15,1) 25%, rgba(219,108,15,1) 75%, rgba(166,82,11,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(219,108,15,1) 0%, rgba(219,108,15,1) 25%, rgba(219,108,15,1) 75%, rgba(166,82,11,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
