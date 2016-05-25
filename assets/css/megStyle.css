@@ -1,0 +1,68 @@
+.menu {
+	margin-top: 0px;
+		margin-right: 10px;
+}
+.message {
+	height: 100px;
+}
+
+.connectIcon {
+	margin: 0 5px 0 5px;
+}
+.connectImage{
+	height: 50px;
+	width: 50px;
+	}
+
+#hOrgana {
+		background: url(../img/header2Organa.png) no-repeat center top;
+		padding-top: 5px;
+		background-attachment: relative;
+		background-position: center center;
+		min-height: 720px;
+		width: 100%;
+		
+		-webkit-background-size: 100%;
+		-moz-background-size: 100%;
+		-o-background-size: 100%;
+		background-size: 100%;
+
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		color: white;
+
+
+
+
+	}
+
+	#hOrgana .logo {
+		margin-top: 0px;
+		margin-left: 10px;
+		display: inline-block;
+		font-weight: 900;
+		color: white;
+		letter-spacing: 1px;
+	}
+
+	#hOrgana .logo h2{
+		font-weight: 900;
+		color: white;
+		letter-spacing: 1px;
+	}
+
+	#hOrgana h3 {
+		margin-top: 30px;
+		letter-spacing: 1px;
+	}
+
+
+	.img-responsive{
+		bottom: 0;
+	}
+
+	.portImg {
+		box-shadow: .5px .5px .5px .5px #ccc;
+	}
