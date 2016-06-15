@@ -83,7 +83,7 @@ var portfolioArray = [{
 {	
 	compName: "<h2>reAUSTIN</h2>",
 	img: "<img src='assets/img/portfolio/reAustin.png' class='img-responsive pArrImg' alt=''>",
-	work: "<div><a href='https://murmuring-woodland-98139.herokuapp.com/'><img src='assets/img/portfolio/reATX.png' class='img-responsive center-block reATX' style='width: 80%' alt=''></a></div>",
+	work: "<div><a href='https://murmuring-woodland-98139.herokuapp.com/'><img src='assets/img/portfolio/reATX.png' class='img-responsive center-block reATX' style='width: 70%' alt=''></a></div>",
     description: "Two friends and I are creating an app to find recycling bins around Austin. You will be able to add bins in your area, and if you have a bin at home that never gets full you can put yours up for use as well. Together we can make Austin even greener! This project is a work in progress, but we should have the MVP finished by early July. We are using HTML5, CSS3, the Materialize Framework, the Google API, and jQuery.",
  
 }, ]
