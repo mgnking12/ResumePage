@@ -41,16 +41,16 @@ var education = [{
     achievements: "Expanding my knowledge in full-stack Development by learning Node.js, React.js, and PHP."
 }]
 var socialMedia = [{
-    type: "Facebook",
+    type: "<i class='fa fa-facebook-square fa-5x' aria-hidden='true'></i>",
     url: "https://www.facebook.com/megantking"
 }, {
-    type: "LinkedIn",
+    type: "<i class='fa fa-linkedin-square fa-5x' aria-hidden='true'>",
     url: "https://www.linkedin.com/in/mgnking"
 }, {
-    type: "GitHub",
+    type: "<i class='fa fa-github-square fa-5x' aria-hidden='true'>",
     url: "https://github.com/mgnking12"
 }, {
-    type: "twitter",
+    type: "<i class='fa fa-twitter-square fa-5x' aria-hidden='true'>",
     url: "https://twitter.com/MoosTweets"
 }];
 var portfolioArray = [{
@@ -289,9 +289,14 @@ $(document).ready(function() {
      $(".contactPage").css('display', 'none');   	
     });
     //=============================let's chat=================================
+    for (var i = 0; i < socialMedia.length; i++) {
+        $(".contactPage").append("<div class='sm'><div class='col-xs-3 text-center'><a class='smItem' href='" + socialMedia[i].url + "'</a>" + socialMedia[i].type + "</div></div>");
+       //$(".itemExpand").append("<a href='#'><i class='fa fa-times faPort' aria-hidden='true' id='faPort'></i></a><br><div class='portDes'>" + portfolioArray[i].compName + portfolioArray[i].description + portfolioArray[i].work + portfolioArray[i].link + "</div>");
+    }
      $("body").on('click', '.contact', function(event) {
      	$("#visibleMainContent").css('display', 'none'); 
      	$(".contactPage").css('display', 'block'); 
      	$(".portfolioPage").css('display', 'none'); 
+
      });
 });

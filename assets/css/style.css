@@ -161,7 +161,14 @@ color: #34495e;
     align-items: center;
     justify-content: center;
 	}
+.smItem{
+	color: #000;
+	height: 100px;
 
+}
+.sm{
+	margin: 100px 0 20px 0;
+}
 .spImg{
 
 margin-top: 5px;
