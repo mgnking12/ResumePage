@@ -63,7 +63,7 @@ var portfolioArray = [{
 {
 	compName: "<h2>Favor</h2>",
 	img:'<img src="assets/img/portfolio/favor.png" class="img-responsive pArrImg" alt="">',
-	work: '<img src="assets/img/portfolio/favorFlav.jpg" class="img-responsive col-md-3 marg" alt=""><img src="assets/img/portfolio/favorteam.jpg" class="img-responsive col-md-5 marg" alt=""><img src="assets/img/portfolio/favorDeliversIt.jpg" class="img-responsive col-md-3 marg" alt="">',
+	work: '<img src="assets/img/portfolio/favorFlav.jpg" class="img-responsive col-md-3 marg" alt=""><img src="assets/img/portfolio/favorTeam.jpg" class="img-responsive col-md-5 marg" alt=""><img src="assets/img/portfolio/favorDeliversIt.jpg" class="img-responsive col-md-3 marg" alt="">',
     description: "<p>I worked at Favor for a year as a Recruiter. Since it was a start up, everyone wore many hats. I had the opportunity do design some ads for the maketing team using Photoshop and Illustrator.</p>",
   
 },
