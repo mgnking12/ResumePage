@@ -239,7 +239,7 @@ $(document).ready(function() {
     //=================================PORTFOLIO=================================
     $("#mainContentHome").append("<div class='row portfolioPage'></div>");
      for (var i = 0; i < portfolioArray.length; i++) {
-        $(".portfolioPage").append("<div class='col-md-4 portItem text-center' id='portItem" + i + "'><span class='imgText center-block'>click.</span>" + portfolioArray[i].img + "</div><div class='itemExpand center-block' id='itemExpand" + i + "'><a href='#'><i class='fa fa-times faPort' aria-hidden='true' id='faPort'></i></a><br><div class='portDes'>" + portfolioArray[i].compName + portfolioArray[i].description + portfolioArray[i].work + "</div></div>");
+        $(".portfolioPage").append("<div class='col-sm-4 portItem text-center' id='portItem" + i + "'><span class='imgText center-block'>click.</span>" + portfolioArray[i].img + "</div><div class='itemExpand center-block' id='itemExpand" + i + "'><a href='#'><i class='fa fa-times faPort' aria-hidden='true' id='faPort'></i></a><br><div class='portDes'>" + portfolioArray[i].compName + portfolioArray[i].description + portfolioArray[i].work + "</div></div>");
        //$(".itemExpand").append("<a href='#'><i class='fa fa-times faPort' aria-hidden='true' id='faPort'></i></a><br><div class='portDes'>" + portfolioArray[i].compName + portfolioArray[i].description + portfolioArray[i].work + portfolioArray[i].link + "</div>");
     }
     $("body").on('click', '#portItem0', function(event) {
