@@ -57,7 +57,7 @@ var portfolioArray = [{
 	compName: "<h2>MicroMain Global</h2>",
 	img:'<img src="assets/img/portfolio/MMWelcome.png" class="img-responsive pArrImg" alt="">',
 	work: '<video controls="controls" width="550" height="400" name="Video Name" src="assets/img/portfolio/MicroMainGlobal.mov" class="img-responsive center-block col-md-5 marg"></video><video controls="controls" width="550" height="400" name="Video Name" src="assets/img/portfolio/MicroMainGlobalTablet.mov" class="img-responsive center-block col-md-3 marg"></video><video controls="controls" width="550" height="400" name="Video Name" src="assets/img/portfolio/MicroMainGlobalPhone.mov" class="img-responsive center-block col-md-3 marg"></video>',
-    description: "<p>This is a sample of the first UI/UX mock up I made for my current company's new product, MicrMain Global. I did this using Experience Design CC from the Adobe Suite. I created everything on this from the icons to the splash background on the home page.</p>",
+    description: "<p>This is a sample of the first UI/UX mock up I made for my current company's new product, MicroMain Global. I did this using Experience Design CC from the Adobe Suite. I created everything on this from the icons to the splash background on the home page.</p>",
 
 },
 {
